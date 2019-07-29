@@ -16,7 +16,7 @@ class App extends Component {
         {/* <SubComponent sentNumber={this.number}></SubComponent> */}
         <SubComponent onRender={() => this.whenSubComponentRender()}></SubComponent>
         <User />
-        <UserDetail />
+        <UserDetail userData={myUserData}  />
 
       </div>
     );
