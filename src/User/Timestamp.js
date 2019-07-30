@@ -21,7 +21,7 @@ class Timestamp extends Component {
     render() {
         return (
             <div>
-                <p>time</p>
+                <p>This is the time</p>
                 <button
                     onClick={this.addClick}>
                     Click me for the time ^_^
